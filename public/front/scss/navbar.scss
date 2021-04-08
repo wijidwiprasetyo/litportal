@@ -1,0 +1,20 @@
+body {
+    .custom-nav {
+        .container {
+            .navbar-brand {
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+                padding: 2em;
+            }
+            .collapse {
+                .navbar-nav {
+                    li {
+                        margin-left: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
