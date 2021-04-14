@@ -1,10 +1,24 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@700&display=swap");
+
+// variable
+$primaryColor: #ee9300;
+$secondaryColor: #0d1e51;
+$tertiaryColor: #f69f26;
+$textColor: #7394ff;
+
 body {
     .custom-nav {
+        background-color: $tertiaryColor;
+        // background-color: #C4C4C4;
         .container {
             .navbar-brand {
                 img {
                     width: 25px;
                     height: 25px;
+                }
+                span{
+                    color: white;
                 }
                 padding: 2em;
             }
@@ -12,9 +26,18 @@ body {
                 .navbar-nav {
                     li {
                         margin-left: 1em;
+                        a{
+                            color: white;
+                            &:hover{
+                                color: $secondaryColor;
+                            }
+                        }
                     }
                 }
             }
         }
     }
+    // .card{
+    //     margin: 2em;
+    // }
 }

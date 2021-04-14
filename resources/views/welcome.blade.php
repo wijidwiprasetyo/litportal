@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{asset('front/css/main.css')}}" />
+        <link rel="stylesheet" href="{{asset('front/css/main.css')}}"/>
 
     </head>
     <body class="antialiased">
@@ -279,11 +279,12 @@
                 </div>
             </section>
         </div>
-
         {{-- end article section --}}
+
+        {{-- footer --}}
         <footer>
             <div class="container">
-                <div class="row justify-content-between align-items-center ">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-md-12 col-lg-4">
                         <div class="footer-about">
                             <img src="{{asset('front/img/logo-litportal-no bg 2.png')}}" class="footer-about__img" alt="">
@@ -337,11 +338,6 @@
                 </div>
             </div>
         </footer>
-
-
-
-        {{--  awal footer  --}}
-        {{--  @include('layouts.footer')  --}}
         {{--  akhir footer  --}}
 
         {{-- < !-- Option 1: Bootstrap Bundle with Popper -->  --}}

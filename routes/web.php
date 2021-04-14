@@ -29,6 +29,9 @@ Route::get('/course', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/profil', function () {
+    return view('profil');
+});
 
 Auth::routes();
 
